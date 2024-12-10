@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BiteOfJoy</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <!--Styles for save form button-->
+  <style>
+    .custom-btn {
+      background-color: #f5e239; /* Light yellow */
+      color: #333;
+      border: none;
+    }
+  
+    .custom-btn:hover {
+      background-color: #FFD700; /* Darker yellow */
+      color: #333;
+    }
+  
+    .custom-btn:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  </style>
+</head>
+
+<body>
+
+ <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>BiteOfJoy<span>.</span></h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="project.html">Recipe</a></li>
+          <li><a href="blog.html"class="active">Saved</a></li>
+		      <li><a href="submission.html">Submission</a></li>
+          <li><a href="contact.html">Profile</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+        <h2>Saved Recipe</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Saved</li>
+        </ol>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+   <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-blog-posts" class="recent-blog-posts">
+      <div class="container" data-aos="fade-up"">
+
+    
+    
+			<div class=" section-header">
+			<h2>Saved Recipe</h2>
+			</div>
+
+      <div class="row gy-5">
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/projects/lunch-3.jpg" class="img-fluid" alt="">
+              <span class="post-date">December 12</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">Egg Mayonnaise Recipe</h3>
+
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Lunch</span>
+                </div>
+              
+
+              <hr>
+
+              <a href="lunch3.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/projects/dinner-2.jpg" class="img-fluid" alt="">
+              <span class="post-date">July 17</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">Chicken Schnitzel with Garlic Butter</h3>
+
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Dinner</span>
+                </div>
+
+              <hr>
+
+              <a href="dinner2.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+        <div class="col-xl-4 col-md-6">
+          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/projects/dinner-3.jpg" class="img-fluid" alt="">
+              <span class="post-date">September 05</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">One Pan Roast Leg Of Lamb</h3>
+
+              
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Dinner</span>
+                </div>
+             
+              <hr>
+
+              <a href="dinner3.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+      </div>
+	</div>
+      </div>
+    </section>
+    <!-- End Recent Blog Posts Section -->
+
+    <!-- Add the button -->
+<div class="container text-center my-5">
+  <button id="addRecipeBtn" class="btn btn-warning rounded-circle" style="position: fixed; z-index: 100; left: 2%; top: 50%; width: 60px; height: 60px; font-size: 24px;">
+    <i class="bi bi-plus"></i>
+  </button>
+</div>
+
+
+<section id="blog" class="blog">
+<!-- Add the modal form -->
+<div id="recipeFormModal" class="modal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1050; background: white; border-radius: 8px; width: 400px; padding: 20px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);">
+  <h4>Add New Recipe</h4>
+  <form action="http://localhost:3000/blog" method="POST" id="submissionForm" enctype="multipart/form-data" onsubmit="handleFormSubmission(event)">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" name="name" id="name" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="name" class="form-label">Email</label>
+      <input type="email" name="email" id="email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" name="title" id="title" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Description</label>
+      <textarea id="description" name="description" class="form-control" rows="3" required></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="ingredient" class="form-label">Ingredients</label>
+      <textarea id="ingredient" name="ingredient" class="form-control" rows="3" required></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="instructions" class="form-label">Instructions</label>
+      <textarea id="instructions" name="instructions" class="form-control" rows="3" required></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="category">Category</label>
+              <select name="category" class="form-control" required>
+                <option value="breakfast">Breakfast & Brunch</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+              </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="photo" class="form-label">Upload Photo</label>
+      <input type="file" name="recipeImage" id="recipeImage" class="form-control" accept="image/*" required>
+    </div>
+    <!--
+    <div class="mb-3">
+      <label for="submissionTime" class="form-label">Submission Time</label>
+      <input type="datetime-local" name="submissionTime" id="submissionTime" class="form-control" >
+    </div>
+    -->
+    <div class="d-flex justify-content-between">
+      <button type="submit" class="btn btn-primary" style="background-color: #feb900; border-color: #feb900;">Submit</button>
+      <button type="button" id="closeFormBtn" class="btn btn-primary" style="background-color: #feb900; border-color: #feb900;">Close</button>
+    </div>
+  </form>
+</div>
+</section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>BiteOfJoy</h3>
+              <p>
+                Group Project <br>
+                AUG2024_DCS2102<br><br>
+                <strong>Phone:</strong> +6018 781 1293<br>
+                <strong>Email:</strong> support@biteofjoy.my<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="project.html">Recipe</a></li>
+              <li><a href="blog.html">Saved</a></li>
+              <li><a href="submission.html">Submission</a></li>
+              <li><a href="contact.html">Profile</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Recipe Category</h4>
+            <ul>
+              <li><a href="project.html">All</a></li>
+              <li><a href="project.html">Breakfast</a></li>
+              <li><a href="project.html">Lunch</a></li>
+              <li><a href="project.html">Dinner</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Share Your Recipe Now</h4>
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Register Now</h4>
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>BiteOfJoy</span></strong>. All Rights Reserved
+        </div>
+        
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Open the modal when the "addRecipeBtn" is clicked
+    document.getElementById('addRecipeBtn').onclick = function() {
+        document.getElementById('recipeFormModal').style.display = 'block';
+    };
+
+    // Close the modal when the "closeFormBtn" is clicked
+    document.getElementById('closeFormBtn').onclick = function() {
+        document.getElementById('recipeFormModal').style.display = 'none';
+    };
+
+    // Collect form data
+    document.getElementById('submissionForm').addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    const response = await fetch('/blog', {
+        method: 'POST',
+        body: formData
+    });
+
+    const result = await response.json();
+    alert(result.message);
+
+    if (response.ok) {
+        // Redirect to home page after successful submission
+        window.location.href = '/BiteOfJoy/index.html';
+    } else {
+        alert('There was an error submitting your recipe.');
+    }
+});
+
+    /*
+    // Form submission using Fetch API
+    
+        // Collect form data
+        const nameValue = document.getElementById("name").value;
+        const emailValue = document.getElementById("email").value;
+        const titleValue = document.getElementById("title").value;
+        const descriptionValue = document.getElementById("description").value;
+        const ingredientValue = document.getElementById("ingredient").value;
+        const instructionsValue = document.getElementById("instructions").value;
+        const categoryValue = document.getElementById("category").value;
+        const fileInput = document.getElementById("recipeImage");
+
+        // Prepare form data to send
+        const formData = new FormData();
+        formData.append("name", nameValue);
+        formData.append("email", emailValue);
+        formData.append("title", titleValue);
+        formData.append("description", descriptionValue);
+        formData.append("ingredient", ingredientValue);
+        formData.append("instructions", instructionsValue);
+        formData.append("category", categoryValue);
+        formData.append("recipeImage", fileInput.files[0]);
+
+        // Send the data to the server
+        fetch("http://localhost:3000/blog", {
+            method: "POST",
+            body: formData,
+        })
+        .then(response => response.json()) // Parse the response
+        .then(data => {
+            if (data.message === 'Recipe submitted successfully') {
+                alert('Recipe submitted successfully!--');
+                window.location.href = '/BiteOfJoy/index.html'; // Redirect after success
+            } else {
+                alert('There was an error submitting your recipe.');
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            alert('There was an error submitting your recipe.');
+        });
+  */
+</script>
+
+</body>
+
+</html>
